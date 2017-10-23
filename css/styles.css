@@ -4,6 +4,10 @@ padding: 0;
 border: none;
 }
 
+body{
+    margin: 0;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -20,36 +24,35 @@ ul{
 
 #header {
     width: 100%;
-    display: block;
     overflow: hidden;
     position: relative;
 }
 #header .logo {
     float: left;
-    padding: 25px 15px;
-
+    display: flex;
+    justify-content: center;
 }
 #header .logo a{
     position: relative;
     padding: 55px 0 50px 0;
-    }
+}
 #header nav {
     float: right;
 }
-#header .navigation{
+#header nav ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     width: 385px;
 }
-#header nav .navigation li{
+#header nav li{
     display: inline;
     font-family:'Trebuchet MS',sans-serif;
 }
-#header nav .navigation a:hover{
+#header nav a:hover{
     color: #0481c2;
 }
-#header nav .navigation a{
+#header nav a{
     display: block;
     text-transform: capitalize;
     color: #878787;
@@ -75,8 +78,6 @@ a{
    
 }
 #main .banner{
-    display: block;
-    overflow: hidden;
     width: 100%;
     position: relative;
 }
@@ -87,12 +88,12 @@ a{
     width: 100%;
     position: relative;
 }
-#main .mainpic1 img{
+#main img{
     display: block;
     overflow: hidden;
     width: 100%;
 }
-#main#main .banner .mainpic1 .infocont{
+#main#main .banner .infocont{
     display:block;
     overflow: hidden;
     padding: 0 15px;
@@ -116,26 +117,35 @@ a{
     font-size: 12px;
     color: #fff;
 }
-#main .banner ul{
+#main .mainbottom ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     margin-top: 39px;
 }
-#main .banner ul li{
+
+#main .mainbottom ul li{
     width: 230px;
 }
-#main .banner ul li img{
+
+#main .mainbottom ul li img{
     display: block;
     overflow: hidden;
     height: auto;
 }
-#main .banner ul li a{
+
+#main .mainbottom ul li a{
     text-decoration: none;
     overflow: hidden;
     color: #878787;
+    font-size: 12px; 
 }
-#main .banner ul li h4{
+
+#main .mainbottom ul li a:hover{
+        color: #0481c2;
+}
+
+#main .mainbottom ul li h4{
     display: block;
     overflow: hidden;  
     font-family: 'Trebuchet MS', sans-serif;
@@ -145,7 +155,7 @@ a{
     color: #0481c2; 
     margin: 5px 0;
 }
-#main .banner ul li p{
+#main .mainbottom ul li p{
     display: block;
     overflow: hidden;
     font-family: 'Arial', sans-serif;
@@ -153,59 +163,129 @@ a{
     font-size: 12px; 
     margin: 0;
     }
+
 #sidebar {
     float: left;
     width: 230px;
     padding: 21px 0;
     border-top:5px solid #0481c2;  
 }
-#sidebar .news1{
-    border-bottom: 1px solid #5e5e5e;
-    padding-bottom: 10px;
-}
-#sidebar .news2{
-    border-bottom: 1px solid #5e5e5e;
-    padding-bottom: 10px;
+
+
+#sidebar p{
+    display: block;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    color: #3c3c3c;    
+    font-size: 12px; 
+    margin: 0;
 }
 
 #sidebar fieldset{
     width: 226px;
     border: 1px solid #5e5e5e
     }
+
+#sidebar .search input{
+    background: url(../pic/Search.png);
+    background-repeat: no-repeat;
+    background-position: right ; 
+}
+
+#sidebar fieldset input{
+    border: none;
+}
+
 #sidebar a{
     text-decoration: none;
     overflow: hidden;
     color: #878787;
+    font-size: 12px; 
 }
+
+#sidebar a:hover{
+    color: #0481c2;
+}    
 
 #sidebar h2{
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 24px;
     color: #0481c2;
+    border-bottom: 1px solid #5e5e5e;
 }
 
+#sidebar h3{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: #0481c2;
+}
+
+#sidebar .news1{
+    border-bottom: 1px solid #5e5e5e;
+    padding-bottom: 25px;
+
+}
+
+#sidebar .news2{
+    border-bottom: 1px solid #5e5e5e;
+    padding-bottom: 25px;
+}
+
+    
 #footer{
-    display: block;    
     overflow: hidden;
     width: 100%;
     padding: 0;
     margin: 0;
 }
-#footer .soc {
+#footer .socials {
     display: flex;
     float: left;
     border-top:5px solid #0481c2;
     width: 226px;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin: 25px 0 60px 0;
     
 }
 #footer .copy{
-    display: block;    
     overflow: hidden;
     float: right;
     font-family: "Arial";
-    color: rgb(64, 64, 64);
+    color: #5e5e5e;
     font-size: 12px;
     border-top:5px solid #0481c2; 
     width: 710px;
     text-align: right;
+    padding-top: 10px;
+    margin: 25px 0 60px 0;
+}
+
+.socials{
+    position: relative;
+}
+.socials .facebook{
+    background: url('../pic/rss1.png') 0 0 ;
+    padding: 11px;
+    display: block;
+}
+.socials .twitter{
+    background: url('../pic/rss1.png') top 0 right 50px ;
+    padding: 11px;
+    display: block;
+}
+.socials .linkedin{
+    background: url('../pic/rss1.png') top 0 right 78px ;
+    padding: 11px;
+    display: block;
+}
+.socials .myspace{
+    background: url('../pic/rss1.png') top 0 right 104px;
+    padding: 11px;
+    display: block;
+}
+.socials .rss{
+    background: url('../pic/rss1.png') top 0 right 134px ;
+    padding: 11px;
+    display: block;
 }

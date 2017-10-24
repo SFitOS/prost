@@ -23,14 +23,12 @@
         </header>
         <main id="main" class="clearfix">
             <div class="banner"> 
-                <!-- тут был mainpic1 обернутый в banner -->
-                    <div class="banner-content">
-                        <h2>Content description</h2>
-                        <p>Add your description Curabitur et suscipit ipsum. Pellentesque porta interdum tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-                    </div>
+                <div class="banner-content">
+                    <h2>Content description</h2>
+                    <p>Add your description Curabitur et suscipit ipsum. Pellentesque porta interdum tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                </div>
                 <img src="pic/room.png" alt="room">
             </div>
-<!-- mainbottom раньше цеплялся за div "banner" -->
             <div class="mainbottom">
                 <ul>
                     <li>
@@ -56,8 +54,9 @@
         </main>
         <aside id="sidebar" class="clearfix">
             <fieldset>
-                <form action="#" method="POST" class="search">
-                    <input type="search" placeholder="search...">
+                <form class="search">
+                    <input type="search" class="search-field" placeholder="search...">
+                    <input type="submit" class="button" value=' '> 
                 </form>
             </fieldset>
             <h2>Latest news</h2>

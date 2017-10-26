@@ -60,7 +60,6 @@ ul{
     text-transform: capitalize;
     color: #878787;
     font-size: 20px;
-    /* padding: 60px 0 69px 0; */
 }
 a{
     text-decoration: none;
@@ -250,7 +249,6 @@ a{
 #footer .socials {
     display: flex;
     float: left;
-    /* border-top:5px solid #0481c2; */
     width: 228px;
     padding-top: 5px;
     position: relative;
@@ -297,7 +295,6 @@ a{
 #footer .copyright{
     overflow: hidden;
     float: right;
-    /* padding: 12px 0 60px 0;  */
 }
 #footer .copy{
     font-family: "Arial", Verdana, Tahoma, sans-serif;

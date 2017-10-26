@@ -94,7 +94,7 @@ a{
     background-color: rgba(175, 173, 173, 0.4) 
 }
 #main .banner h2{
-    padding-top: 55px;
+    margin: 70px 0 0 0;
     font-family: 'Trebuchet MS', Arial, Verdana, Tahoma, sans-serif;
     font-size: 18px;
     color: #fff;
@@ -103,11 +103,12 @@ a{
     font-family: 'Arial', Arial, Verdana, Tahoma, sans-serif;
     font-size: 12px;
     color: #fff;
+    margin: 12px 0 0 0;
 }
 
 #main .main-bottom{
     padding-bottom: 27px;    
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 #main .main-bottom ul{
@@ -131,7 +132,7 @@ a{
     overflow: hidden;
     color: #878787;
     font-size: 12px;
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 #main .main-bottom ul li a:hover{
@@ -143,9 +144,9 @@ a{
     overflow: hidden;  
     font-family: 'Trebuchet MS', Arial, Verdana, Tahoma, sans-serif;
     font-size: 18px; 
-    padding: 10px 0 5px 0;
+    padding-bottom: 15px;
     color: #0481c2; 
-    margin: 5px 0;
+    margin: 15px 0 0 0;
 }
 #main .main-bottom ul li p{
     display: block;
@@ -180,15 +181,16 @@ a{
 #sidebar .search-field{
     border: none;
     outline: none;
-    width: 200px;
+    width: 205px;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 15px;
     vertical-align: center;    
 }
 
 #sidebar .button {
-    padding: 0;
-    width: 18px;
+    position: absolute;
+    padding: 2px;
+    width: 21px;
     height: 19px;
     border: none;
     background: url(../pic/Search.png) no-repeat 50% 50%;
@@ -222,8 +224,8 @@ a{
     font-size: 24px;
     color: #0481c2;
     border-bottom: 1px solid #5e5e5e;
-    padding:20px 0 4px 0;
-    margin: 0;
+    padding-bottom:4px;
+    margin: 20px 0 0 0;
 }
 
 #sidebar h3{
@@ -234,17 +236,12 @@ a{
     margin: 0;
 }
 
-#sidebar .news1{
+#sidebar .news{
     border-bottom: 1px solid #5e5e5e;
     padding-bottom: 23px;
-    padding-top:25px; 
+    margin-top:25px; 
 }
 
-#sidebar .news2{
-    border-bottom: 1px solid #5e5e5e;
-    padding-bottom: 23px;
-    padding-top:24px; 
-}
     
 #footer{
     overflow: hidden;
@@ -296,15 +293,17 @@ a{
     height: 23px;
     display: block;
 }
-
-#footer .copy{
+#footer .copyright{
     overflow: hidden;
-    float: right;
+    /* padding: 12px 0 60px 0;  */
+}
+#footer .copy{
     font-family: "Arial", Verdana, Tahoma, sans-serif;
     color: #5e5e5e;
     font-size: 12px;
+    text-align: right;
+    float: right;
     border-top:5px solid #0481c2; 
     width: 710px;
-    text-align: right;
-    padding: 12px 0 60px 0;
+    padding-top: 5px;
 }

@@ -22,6 +22,7 @@ ul{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 50px 0 50px 0;    
 }
 #header .logo {
     display: flex;
@@ -46,6 +47,7 @@ ul{
     display: flex;
     justify-content: space-between;
     width: 385px;
+    align-items: center;
 }
 #header .navigation li{
     font-family:'Trebuchet MS', Arial, Verdana, Tahoma,sans-serif;
@@ -58,7 +60,7 @@ ul{
     text-transform: capitalize;
     color: #878787;
     font-size: 20px;
-    padding: 60px 0 69px 0;
+    /* padding: 60px 0 69px 0; */
 }
 a{
     text-decoration: none;
@@ -103,27 +105,27 @@ a{
     color: #fff;
 }
 
-#main .mainbottom{
+#main .main-bottom{
     padding-bottom: 27px;    
     padding-top: 40px;
 }
 
-#main .mainbottom ul{
+#main .main-bottom ul{
     display: flex;
     justify-content: space-between;
 }
 
-#main .mainbottom ul li{
+#main .main-bottom ul li{
     width: 230px;
 }
 
-#main .mainbottom ul li img{
+#main .main-bottom ul li img{
     display: block;
     overflow: hidden;
     height: auto;
 }
 
-#main .mainbottom ul li a{
+#main .main-bottom ul li a{
     display: block;
     text-decoration: none;
     overflow: hidden;
@@ -132,11 +134,11 @@ a{
     padding-top: 15px;
 }
 
-#main .mainbottom ul li a:hover{
+#main .main-bottom ul li a:hover{
         color: #0481c2;
 }
 
-#main .mainbottom ul li h4{
+#main .main-bottom ul li h4{
     display: block;
     overflow: hidden;  
     font-family: 'Trebuchet MS', Arial, Verdana, Tahoma, sans-serif;
@@ -145,7 +147,7 @@ a{
     color: #0481c2; 
     margin: 5px 0;
 }
-#main .mainbottom ul li p{
+#main .main-bottom ul li p{
     display: block;
     overflow: hidden;
     font-family: 'Arial', Arial, Verdana, Tahoma, sans-serif;
@@ -229,7 +231,6 @@ a{
     font-size: 14px;
     color: #0481c2;
     padding-bottom: 14px;
-    padding: ;
     margin: 0;
 }
 

@@ -73,10 +73,11 @@ a{
     float: right;
     padding-top: 21px;
     border-top:5px solid #0481c2;  
-   
 }
 #main .banner{
     position: relative;
+    margin-bottom: 40px;   
+    
 }
 
 #main img{
@@ -92,8 +93,23 @@ a{
     right: 0;
     background-color: rgba(175, 173, 173, 0.4) 
 }
+#main .wrapper-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 172px;
+    left: 505px;
+    padding-left: 16px;
+    padding-right: 16px;
+   */
+}
+
 #main .banner h2{
-    margin: 70px 0 0 0;
+    /* margin: 70px 0 0 0; */
     font-family: 'Trebuchet MS', Arial, Verdana, Tahoma, sans-serif;
     font-size: 18px;
     color: #fff;
@@ -102,12 +118,11 @@ a{
     font-family: 'Arial', Arial, Verdana, Tahoma, sans-serif;
     font-size: 12px;
     color: #fff;
-    margin: 12px 0 0 0;
+    /* margin: 12px 0 0 0; */
 }
 
 #main .main-bottom{
-    padding-bottom: 27px;    
-    margin-top: 40px;
+    margin-bottom: 27px;    
 }
 
 #main .main-bottom ul{
